@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 36vh;
+background: #2e3440;
+  border-bottom-left-radius: 0px;
+  box-shadow: 3px 15px 40px 0px rgba(0,0,0,0.62);
+  -webkit-box-shadow: 3px 15px 40px 0px rgba(0,0,0,0.62);
+  -moz-box-shadow: 3px 15px 40px 0px rgba(0,0,0,0.62);
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;  
+  background-color: #434c5e;
+}
+
+.icon {
+  width: 3.5rem;
+  height: 4rem;
+  font-size: 1rem;
+  text-align: center;
+  word-wrap: break-word;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 6px;
+  position: relative;
+  top: 20px;
+  right: 46%;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.header button {
+  width: 75px;
+  font-size: 1rem;
+  color: #000ece;
+}
+
+/* Login button */
+.login
+{
+    top: 40px;
+    left: 82%;
+    position: absolute;
+}
+.login button
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: 1;
+    outline: none;
+    border-radius: 30px;
+    color: hsl(0, 100%, 0%);
+    background:white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.login button a
+{
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 15px;
+    padding: .5em;
+}
+.login button:hover
+{
+    background: #F5F5F5;
+}
+
+/* Signup button */
+.signup
+{
+    top: 40px;
+    left: 90%;
+    position: absolute;
+}
+.signup button
+{
+    left: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #00d600;
+    color: hsl(0, 100%, 100%);
+    cursor: pointer;
+    font-weight: 600;
+}
+.signup button a
+{
+    font-weight: 900;
+    text-decoration: none;
+    font-size: 15px;
+    padding: .5em;
+    color: white;
+}
+.signup button:hover
+{
+    background: #1EC817;	
+}
+
+/* Home, About, Contact links */
+.nav_menu
+{
+    margin-top: 50px;
+    margin-left: 230px;
+    position: absolute;
+    top: -13px;
+    left: -130px;
+}
+.nav_menu ul
+{
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+.nav_menu ul li
+{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 30px;
+    color:white;
+    font-size: 15px;
+    list-style: none;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.nav_menu ul li a
+{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9em;
+    padding: .5em;
+    color: snow;
+}
+.nav_menu ul li a:hover
+{
+    text-decoration: underline;
+}
+
+/* Navigation menu text */
+.container2
+{
+    margin-top: 35px;
+    margin-left: 330px;  
+    position: absolute;
+}
+.container2 h1
+{ 
+    font-size: 65px;
+    font-family:'Nunito Sans', sans-serif;
+    color: snow;
+}
+.container2 h2
+{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: snow;
+}
+.container2 p
+{
+    color: snow;
+    font-size: 21px;
+    margin-left: 30px;
+    margin-top: 5px;
+}

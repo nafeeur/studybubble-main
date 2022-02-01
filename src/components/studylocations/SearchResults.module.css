@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+/* Google maps */
+.mapcontainer {
+  width: 630px;
+  height: 600px;
+  position: absolute;
+  top: 350px;
+  left: 46rem;
+
+
+
+  box-shadow: -2px 11px 48px 4px rgba(0,0,0,0.7);
+-webkit-box-shadow: -2px 11px 48px 4px rgba(0,0,0,0.7);
+-moz-box-shadow: -2px 11px 48px 4px rgba(0,0,0,0.7);
+}
+
+/* Recommended Results heading */
+.listheading {
+    width: 600px;
+    position: relative;
+    top: -1.5rem;
+    left: -42rem;
+    color: #e5e9f0;
+}
+
+/* List of study locations */
+.studylist {
+    width: 1200px;
+    height: 40rem;
+    position: absolute;
+    top: 350px;
+    right: 10rem;
+}
+
