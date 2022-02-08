@@ -1,4 +1,4 @@
-# Studybubble.rocks
+# https://Studybubble.rocks
 
 ![Study](https://user-images.githubusercontent.com/67729867/152911139-dc5fc75b-b927-458e-8e2f-7eb27224e638.JPG)
 
