@@ -2,9 +2,11 @@
 
 ![Study](https://user-images.githubusercontent.com/67729867/152911139-dc5fc75b-b927-458e-8e2f-7eb27224e638.JPG)
 
+# About
+
 A web application built using React that utilizes the Google Geocoding and Yelp API to search for and recommend public places within NYC. The application also integrates the Google Firebase authentication system for user login and registration
 
-*Note Website May not work properply at this moment due to API limitation 
+**Note Website May not work properply at this moment due to API limitation** 
 
 
 # Getting Started with Create React App
